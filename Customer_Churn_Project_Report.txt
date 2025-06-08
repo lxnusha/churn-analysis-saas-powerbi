@@ -1,0 +1,82 @@
+
+Customer Churn Analysis – SaaS Platform (Power BI Dashboard)
+Prepared by: Linusha | Date: 08-06-2025
+
+=======================================================================
+1. Background of the Study:
+-----------------------------------------------------------------------
+Introduction to the Data Set:
+The dataset used is a simulated customer dataset from a SaaS company, containing customer-level information such as company size, industry, subscription type, feature usage, NPS rating, login frequency, support tickets, tenure, and churn status.
+
+Problem Statement:
+The company has observed a rise in customer churn. The objective is to identify behavioral and engagement patterns that contribute to churn and derive actionable insights.
+
+Objective of the Study:
+- Understand churn drivers using business metrics
+- Visualize patterns and compare churned vs retained users
+- Help stakeholders with data-driven churn-reduction decisions
+
+=======================================================================
+2. Literature Review:
+-----------------------------------------------------------------------
+Overview of the Dataset Used:
+- Format: CSV file with 500 customer records
+- Key fields: Customer_ID, Company_Size, Industry, Subscription_Type, Tenure, Login_Frequency, NPS_Rating, Feature_Usage_Score, Last_Interaction_Days, Churned
+
+Explanation of the Dataset:
+Each row represents a unique customer with demographic and usage behavior metrics. The 'Churned' column (0 or 1) indicates if the customer is still active.
+
+Identification of Additional Resources:
+- Power BI documentation for slicers and KPI visuals
+- Articles on churn analytics in SaaS
+- Support from Business Analytics learning materials
+
+=======================================================================
+3. Methodology:
+-----------------------------------------------------------------------
+Approach to Data Analysis:
+- Load the CSV file into Power BI
+- Categorize variables: Categorical (Company_Size, Industry, etc.) vs Numerical (Tenure, NPS, etc.)
+- Aggregated comparisons using bar charts and slicers
+
+Data Exploration:
+- Examined average churn by segments
+- Explored distributions for NPS, logins, and feature usage
+
+Data Cleansing:
+- Verified no nulls or missing values
+- Filtered out cases with 0 login or low feature usage for targeted analysis
+
+Visualization Techniques Employed:
+- Clustered Column Charts to compare churned vs retained users
+- Slicers for Industry, Company Size, and Subscription Type
+
+Overview of the Dashboard and Its Components:
+- 6 bar charts covering:
+  - Churn by Subscription Type and Company Size
+  - Average NPS Rating, Login Frequency, Feature Usage Score, and Last Interaction Days
+- Filters (Slicers) for easy exploration by business segments
+
+=======================================================================
+4. Insights and Conclusions:
+-----------------------------------------------------------------------
+Summarized Findings from the Dashboard:
+1. Churned users have lower feature usage (0.44) vs retained (0.64)
+2. NPS rating is significantly lower for churned users (4.06) than retained (5.45)
+3. Retained users log in more frequently (7.53 vs 5.33)
+4. Churned users have longer inactivity (38.36 days vs 26.66 days)
+5. Minimal churn difference by Subscription Type and Company Size
+
+Recommendations:
+- Improve feature onboarding for new users
+- Launch inactivity-based nudges for users >30 days inactive
+- Monitor customers with NPS <5 for intervention
+- Focus more on behavioral data over business segment
+
+=======================================================================
+5. Bibliography:
+-----------------------------------------------------------------------
+- Dataset: Simulated SaaS customer dataset (internal)
+- Power BI documentation: https://learn.microsoft.com/en-us/power-bi/
+- Business Analytics Frameworks (MBA coursework references)
+- Online articles on SaaS churn strategies and retention
