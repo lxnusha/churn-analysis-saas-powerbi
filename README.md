@@ -64,7 +64,7 @@ This project explores the behavioral and satisfaction-driven factors behind cust
 
 ## Preview
 
-<img src="https://via.placeholder.com/800x400.png?text=Power+BI+Dashboard+Preview" alt="Dashboard Preview"/>
+<img src="dashboard_preview.png" alt="Dashboard Preview"/>
 
 ---
 
